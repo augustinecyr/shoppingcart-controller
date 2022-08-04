@@ -5,16 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Start Shopping now!</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
 </head>
-<body>
-    <h1>Please enter your Name</h1>
+<body style="text-align: center;">
+    <marquee><h1>Welcome to our main page</h1></marquee>
+    <h2>Please enter your Name</h2>
 
-    <form method="POST" action="/cart">
+    <form method="POST" action="/cart" style="text-align: center;">
 
         <label for="name">Name:</label>
         <input id="name" type="text" name="name" size="30" placeholder="Your name" required>
-
-        <button type="submit">Enter</button>
+        <br><br>
+        <button type="submit" style="font-weight:bold;">Enter</button>
 
     </form>
    
